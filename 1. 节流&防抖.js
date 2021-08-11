@@ -1,6 +1,5 @@
 // 防抖(规定时间内多次触发后，只执行最后一次)
 function debounce(cb, wait) {
-    // test
     if (typeof cb === 'function') {
         let wait = null;
         if (wait !== null) clearTimeout(wait);
